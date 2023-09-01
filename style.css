@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top-container{
+    background-color: #FFF3DA;
+    
+}
+
+h1{
+    font-size: 10vh;
+    color: #BEADFA;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sacramento', cursive;
+text-align: center;
+margin-top: 0;
+}
+
+h2{
+    margin-top: 0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 7vh;
+    color:#BEADFA;;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sacramento', cursive;
+text-align: center;
+text-transform: capitalize;
+text-decoration: underline;
+text-underline-position: under;
+}
+
+
+
+
+.mountain-image{
+
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 100%;
+     width: 600px;
+     max-width: 100%;
+ 
+ }
+
+ .first-cloud{
+    position: absolute;
+    left: 65%;
+    top: 5%;
+}
+
+.second-cloud{
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    
+    
+}
+
+.hi-gif{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+
+.intro{
+    
+    font-size: 3vh;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    border: 6px dotted #D0BFFF;
+    width: 5%;
+    border-bottom: none;
+    margin: 100px auto 0px auto;
+    
+    
+}
+
+.app-dev>img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    margin-right: 3vh;
+}
+
+.webdev>img{
+    width: 200px;
+    height: auto;
+    float: left;
+    
+    margin-right: 3vh;
+}
+
+.cpp>img{
+    width: 200px;
+    height: auto;
+    float: left;
+  
+    margin-right: 3vh;
+}
+
+.skills{
+    margin-bottom: 15vh;
+    padding-bottom: 5vh;
+}
+.skills>h2{
+    text-align: left;
+
+}
+
+
+
+#bottom-container p{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-me{
+   text-align: center;
+   padding-bottom: 2vh;
+
+}
+
+.contact-me img{
+    display: flex;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-list{
+    padding-bottom: 5vh;
+
+
+}
+img.icons{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.fa-solid{
+    position: relative;
+    width: 30px;
+    font-size: 4vh;
+    bottom:1vh;  
+}
+
+.contact-me>h3{
+    color: #BEADFA;
+    font-size: 4vh;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 4vh;
+}
+
+
+.contact-me>p{
+
+    color: #BEADFA;
+    font-size: 3vh;
+    padding-bottom: 4vh;
+
+
+}
+
+#middle-container{
+    background-color:lavender
+}
+
+#bottom-container{
+    background-color: #FFF3DA;
+}
+
+p{
+    margin-left: 1vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer{
+    color: #BEADFA;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sacramento', cursive;
+font-weight: bold;
+}
+
+@media (max-width:700px){
+
+    
+.first-cloud{
+    position: absolute;
+    left: 65%;
+    top: 5%;
+    width: 20%;
+    
+   
+}
+
+.second-cloud{
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    width: 20%;
+    
+    
+}
+
+.mountain-image{
+
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 60%;
+
+}
+
+    
+h2{
+    margin-top: 0;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    font-size: 5vh;
+    color:#BEADFA;;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sacramento', cursive;
+text-align: center;
+text-transform: capitalize;
+text-decoration: underline;
+text-underline-position: under;
+}
+
+p{
+    overflow: hidden;
+}
+
+.contact-me>h3{
+    color: #BEADFA;
+    font-size: 3.5vh;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 3vh;
+}
+
+.contact-me>p{
+    font-size: 2vh;
+    padding-bottom: 4vh;
+
+}
+
+p.footer{
+    padding-bottom: 0;
+}
+
+.skills>img{
+    height: 100px;
+    width: 100px;
+}
+
+.skills{
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+}
+}
