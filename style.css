@@ -187,12 +187,13 @@ p{
     font-family: 'Roboto Mono', monospace;
 }
 
-.footer{
+p.footer{
     color: #BEADFA;
     font-family: 'Josefin Sans', sans-serif;
 font-family: 'Sacramento', cursive;
 font-weight: bold;
 padding-bottom: 0;
+font-size: 3vh;
 }
 
 @media (max-width:700px){
@@ -259,7 +260,12 @@ p{
 }
 
 p.footer{
-    padding-bottom: 0;
+    color: #BEADFA;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Sacramento', cursive;
+font-weight: bold;
+padding-bottom: 0;
+font-size: 2.5vh;
 }
 
 .skills>img{
