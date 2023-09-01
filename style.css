@@ -156,7 +156,7 @@ img.icons{
     position: relative;
     width: 30px;
     font-size: 4vh;
-    bottom:0.6vh;  
+    bottom:0.9vh;  
 }
 
 .contact-me>h3{
@@ -167,13 +167,11 @@ img.icons{
 }
 
 
-.contact-me>p{
+p.bottom-text{
 
     color: #BEADFA;
     font-size: 3vh;
     padding-bottom: 4vh;
-
-
 }
 
 #middle-container{
@@ -194,6 +192,7 @@ p{
     font-family: 'Josefin Sans', sans-serif;
 font-family: 'Sacramento', cursive;
 font-weight: bold;
+padding-bottom: 0;
 }
 
 @media (max-width:700px){
